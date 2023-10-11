@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774994783943",
+    "project_id": "test-call-b0300",
+    "storage_bucket": "test-call-b0300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774994783943:android:db1fcdcc1b8f0f14b758e2",
+        "android_client_info": {
+          "package_name": "com.example.vedioaudio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8QX5cNIyMazX4GmydIeulf6cGx37-_rY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
