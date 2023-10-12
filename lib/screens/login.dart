@@ -6,7 +6,6 @@ import '../common/widgets/loading_holder.dart';
 import '../common/widgets/top_bar.dart';
 import '../services/firebase_service.dart';
 
-
 class Login extends StatefulWidget {
   const Login({super.key});
 
@@ -89,11 +88,14 @@ class _LoginState extends State<Login> {
                           ),
                           TextButton(
                             onPressed: () {
-                         /*     MyApp.navigatorKey.currentState
+                              /*     MyApp.navigatorKey.currentState
                                   ?.push(MaterialPageRoute(
                                 builder: (ctx) => const SignUp(),
                               ));*/
-                              Navigator.push(context, MaterialPageRoute(builder:(context) =>  const SignUp()));
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => const SignUp()));
                             },
                             child: const Text('Sign up'),
                           )
@@ -122,8 +124,11 @@ class _LoginState extends State<Login> {
                             );
 
                             if (result && mounted) {
-
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => Home(),));
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => Home(),
+                                  ));
                             } else {
                               if (mounted) {
                                 ScaffoldMessenger.of(context).showSnackBar(

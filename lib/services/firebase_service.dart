@@ -10,6 +10,7 @@ class FirebaseService {
   static final _store = FirebaseFirestore.instance;
 
   static UserModel? _currentUser;
+
   static UserModel get currentUser {
     if (_currentUser == null) {
       throw Exception(
@@ -19,9 +20,7 @@ class FirebaseService {
   }
 
   static Future<void> setupFirebase() async {
-    await Firebase.initializeApp(
-
-    );
+    await Firebase.initializeApp();
   }
 
   static Stream<QuerySnapshot<Map<String, dynamic>>> get buildViews =>

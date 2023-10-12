@@ -4,7 +4,6 @@ import '../common/widgets/loading_holder.dart';
 import '../common/widgets/top_bar.dart';
 import '../services/firebase_service.dart';
 
-
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
 

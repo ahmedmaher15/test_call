@@ -12,7 +12,6 @@ import '../models/user.dart';
 import '../services/firebase_service.dart';
 // import 'package:zego_cloud/common/widgets/call_invitation.dart';
 
-
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -33,6 +32,7 @@ class _HomeState extends State<Home> {
       plugins: [ZegoUIKitSignalingPlugin()],
     );
   }
+
   @override
   void initState() {
     // TODO: implement initState
@@ -40,6 +40,7 @@ class _HomeState extends State<Home> {
     super.initState();
     onUserLogin();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

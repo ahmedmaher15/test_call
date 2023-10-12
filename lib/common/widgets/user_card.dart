@@ -72,14 +72,14 @@ class _UserCardState extends State<UserCard> {
 
   ZegoSendCallInvitationButton actionButton(bool isVideo) {
     return ZegoSendCallInvitationButton(
-        isVideoCall: isVideo,
-        resourceID: "zegouikit_call",
-        invitees: [
-          ZegoUIKitUser(
-            id: widget.userModel.username,
-            name: widget.userModel.name,
-          ),
-        ],
-      );
+      isVideoCall: isVideo,
+      resourceID: "zegouikit_call",
+      invitees: [
+        ZegoUIKitUser(
+          id: widget.userModel.username,
+          name: widget.userModel.name,
+        ),
+      ],
+    );
   }
 }

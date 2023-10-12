@@ -4,7 +4,8 @@ import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
 import '../static.dart';
 
 class CallPage extends StatelessWidget {
-  const CallPage({Key? key, required this.callID, required this.userName}) : super(key: key);
+  const CallPage({Key? key, required this.callID, required this.userName})
+      : super(key: key);
   final String callID;
   final String userName;
 
