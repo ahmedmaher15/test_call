@@ -870,7 +870,7 @@ packages:
     source: hosted
     version: "3.15.6"
   zego_uikit_signaling_plugin:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: zego_uikit_signaling_plugin
       sha256: "7492e98ab4b4ea50d57d67602df62532641b2fd1eb5d1b3f7b3d1bdfec0f3f0f"
